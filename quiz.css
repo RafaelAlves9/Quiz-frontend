@@ -1,4 +1,4 @@
-            /* definicoes gerais */
+            /* GERAIS */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ h1 {
     margin: 20px 0;
 }
 
-            /* barra de progresso */
+            /* BARRA DE PROGRESSO */
 .progress {
     height: 5px;
     position: fixed;
@@ -29,12 +29,12 @@ h1 {
     right: 0;
 }
 .progress--bar {
-    background-color: #00FF00;
+    background-color: violet;
     height: 100%;
     transition: all ease .5s;
 }
 
-            /* conteudo do quiz */
+            /* CONTEUDO QUIZ */
 .questionArea,
 .scoreArea {
     display: none;
@@ -95,7 +95,7 @@ h1 {
     color: rgb(255, 0, 0);
 }
 
-            /* mensagem final */
+            /* MENSAGEM FINAL */
 .scoreArea {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
@@ -140,7 +140,7 @@ h1 {
 }
 
 
-            /* creditos */
+            /* CREDITO */
 footer {
     margin-top: 20px;
     color: #FFF;

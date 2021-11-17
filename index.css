@@ -1,0 +1,150 @@
+            /* GERAL */
+@charset "UTF-8";
+
+*{
+    font-family: 'Nanum Gothic Coding', Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+
+            /* BANNER */
+main{
+    background-image: url(image/fundo.jpeg);
+    width: 100%;
+    height: 85vh;
+}
+
+.content1{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.contentText{
+    padding-top: 100px;
+}
+
+.contentText h1{
+    background-color: black;
+    color: violet;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.nav{
+    background-color: rgba(238, 130, 238, 0.795);
+    display: block;
+    margin: auto;
+    width: 300px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contentText a{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav:hover{
+    background-color: rgb(238, 130, 238);
+}
+
+.contentText a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+            /* BLOCO 1 */
+#bloco1{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 600px;
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.63);
+    color: white;
+}
+
+.content2{
+    background-color: rgba(128, 128, 128, 0.075);
+    margin: 0 auto;
+    width: 900px;
+    height: calc(100% - 30px);
+    max-width: 70%;   
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content2-1{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+            /* TEXTO EXPLICATIVO */
+.leftCont{
+    width: 45%;
+}
+
+.leftCont p{
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftCont li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+            /* IMAGEM QUIZ */
+.content2-1 img{
+    width: 400px;
+}
+
+            /* BLOCO 2 */
+#bloco2{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.content3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 900px;
+    max-width: 70%;   
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contatos{
+    text-align: left;
+    padding-top: 5px;
+}
+
+.contatos ul{
+    list-style: none;
+}
+
+.contatos li{
+    padding-bottom: 15px;
+}
+
+.contatos a{
+    font-size: 23px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Nanum Gothic Coding', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
